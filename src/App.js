@@ -1,57 +1,54 @@
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 function App() {
   return (
       <>
-        <header id="header">
-          <h1>Sketch Markers</h1>
-          <nav id="nav-bar">
-            <a className="nav-link" href={"#hero"}>About</a>
-            <a className="nav-link" href={"#edition"}>Edition</a>
-            <a className="nav-link" href={"#gift"}>Gift</a>
-            <a className="nav-link" href={"#footer"}>Contact</a>
-          </nav>
-        </header>
-        <main>
+          <header className="App-header">
+              <div className={'container'}>
+              <div>
+              <h1>S&T</h1>
+              <nav>
+                  <a href={"#about"}>About</a>
+                  <a href={"#items"}>Items</a>
+                  <a href={"#contact"}>Contact</a>
+              </nav>
+              </div>
+              <div>
+              <h1>Strategy and Technology</h1>
+              <h2>Grow Your business globally</h2>
+              </div>
+              <a className={'hire-button'} href={"#contact"}>Hire Us</a>
+              </div>
+          </header>
+          <main>
+              <section className={'service'}>
+                  <div className={'container'}>
+                      <i className="fa-solid fa-computer"></i>
+                      <h1>Business on all platforms</h1>
+                      <p>Growing your audience on all multimedia.</p>
+                  </div>
+                  <div className={'container'}>
+                      <i className="fa-regular fa-comment"></i>
+                      <h1>Solutions with Technology</h1>
+                      <p>100% correct calculated with the most mordern technology.</p>
+                  </div>
+                  <div className={'container'}>
+                      <i className="fa-solid fa-business-time"></i>
+                      <h1>Business plan</h1>
+                      <p>Plan your company's events and meetings with IT.</p>
+                  </div>
+              </section>
 
-          <section id="hero">
-            <h1>Design, Concept, Art, Draw, Sketch</h1>
-            <a href={"#footer"}>Review Our Markers</a>
-            <a href={"#footer"}>Get one</a>
-          </section>
-
-          <section id="edition">
-            <div id="first-edition">
-              <a href={"#footer"}>First Edition<span>Get></span></a>
-            </div>
-
-            <div id="black-edition">
-              <a href={"#footer"}>Black Edition<span>Get></span></a>
-            </div>
-          </section>
-
-          <section id="review">
-            <iframe id="video" width={360} height={200} src="https://www.youtube.com/embed/aAdWtml2i6E" title="Copic Sketch
-                marker" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                picture-in-picture; web-share" >
-            </iframe>
-          </section>
-
-          <section id="gift">
-            <h1>Find the perfect gift for your beloved ones!</h1>
-            <a href={"#footer"}>Find the perfect Gift</a>
-          </section>
-
-          <footer id="footer">
-            <form action="https://www.freecodecamp.com/email-submit" id="form">
-              <h1>Contact us</h1>
-              <input name="email" id="email" type="email" placeholder="your email address"/>
-              <textarea rows="10" placeholder="message"></textarea>
-              <input type="submit" id="submit"/>
-            </form>
-            <p>copyright</p>
-          </footer>
-        </main>
+              <section className={'product'}>
+                  <h1>Product & Service</h1>
+                  <div className={'container'}>
+                      <img src={"https://images.stockcake.com/public/7/2/0/7206ea94-2dbc-4a28-bb2b-b13e8027be6c_large/smartphone-social-media-stockcake.jpg"} alt={'social media'} />
+                      <h1></h1>
+                  </div>
+              </section>
+          </main>
       </>
   )
       ;
