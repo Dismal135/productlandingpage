@@ -19,7 +19,7 @@ function App() {
             <h2>Grow your business world wide with website</h2>
             <p>There is no magic only your skills and strategy</p>
         </div>
-        <a className={'hire-button'} href={'#'}>Hire us</a>
+        {/* <a className={'hire-button'} href={'#'}>Hire us</a> */}
     </header>
     <main>
         <section className={'about'} id={'about'}>
