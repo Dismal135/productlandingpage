@@ -118,6 +118,10 @@ footer {
     color: white;
 }
 
+.scroll-to-top-button {
+    background-color: red!important;
+}
+
 @media screen and (min-width: 1024px) {
     header {
        padding: 0 5rem 5rem 5rem;

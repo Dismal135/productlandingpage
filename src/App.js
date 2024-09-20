@@ -5,7 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 function App() {
   return (
     <>
-        <ScrollToTop smooth color="red" />
+        <ScrollToTop className='scroll-to-top-button' smooth color='white' />
     <header>
         <div className={'navbar'}>
         <h1>Wisdom</h1>
