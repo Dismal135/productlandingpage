@@ -8,84 +8,75 @@ function App() {
         <ScrollToTop className='scroll-to-top-button' smooth color='white' />
     <header>
         <div className={'navbar'}>
-        <h1>Wisdom</h1>
+        <h1>👨🏻‍💻</h1>
         <nav>
             <a href={"#about"}>About</a>
             <a href={"#contact"}>Contact</a>
         </nav>
         </div>
         <div className={"header-content"}>
-            <h1>Plan your business with technology</h1>
-            <h2>Grow your business world wide with website</h2>
-            <p>There is no magic only your skills and strategy</p>
+            <h1>Do you need a website for your business?</h1>
+            <h2>Do you know an online website can grow your business?</h2>
+            <h3>A website can help can your company not only for digital marketing but also for your company's management.</h3>
         </div>
-        {/* <a className={'hire-button'} href={'#'}>Hire us</a> */}
     </header>
     <main>
         <section className={'about'} id={'about'}>
             <div className={'about-content'}>
-            <i className="fa-solid fa-tv"></i>
-            <h1>Multimedia</h1>
-            <p>We are here to boost your visibility by using Multimedia platforms.</p>
+                <i className="fa-solid fa-font fa-4x"></i>
+                <h1>CMS</h1>
+                <p>Need to make content writing.We got Content Management System</p>
             </div>
             <div className={'about-content'}>
-            <i className="fa-solid fa-laptop"></i>
-            <h1>Information technology</h1>
-            <p>Dont waste your time and resources.</p>
+                <i className="fa-solid fa-business-time fa-4x"></i>
+                <h1>Digital Marketing</h1>
+                <p>Reach to more audience with product landing websites</p>
             </div>
             <div className={'about-content'}>
-            <i className="fa-solid fa-globe"></i>
-            <h1>Connect</h1>
-            <p>You can accept anything, anyone at anywhere.We are connected.</p>
+                <i className="fa-solid fa-tachograph-digital fa-4x"></i>
+                <h1>Dashboard</h1>
+                <p>Analyst your business with dashboard web application</p>
+            </div>
+            <div className={'about-content'}>
+                <i className="fa-solid fa-video fa-4x"></i>
+                <h1>Multimedia</h1>
+                <p>Need platform to cast your music, media, content?We got them here.</p>
+            </div>
+            <div className={'about-content'}>
+                <i className="fa-solid fa-video fa-4x"></i>
+                <h1>Ecommerce</h1>
+                <p>Sell anything you want online with ecommerce web application</p>
             </div>
         </section>
         <section className={'service'}>
-            <h1>Our services</h1>
-            <div className={'wrapper'}>
-            <div className={'service-content'}>
-                <img className={'service-img'} src={'https://images.stockcake.com/public/7/2/0/7206ea94-2dbc-4a28-bb2b-b13e8027be6c_large/smartphone-social-media-stockcake.jpg'} alt={'social media'} />
-                <h1 className={'service-title'}>Getting audiences and visibility</h1>
-            </div>
-            <div className={'service-content'}>
-                <img className={'service-img'} src={'https://images.stockcake.com/public/3/c/7/3c74b190-0f04-432d-9ceb-28ff1bb1c961_large/man-typing-laptop-stockcake.jpg'} alt={'website'} />
-                <h1 className={'service-title'}>Advertise with your own website.</h1>
-            </div>
-            <div className={'service-content'}>
-                <img className={'service-img'} src={'https://images.stockcake.com/public/d/b/6/db67d834-f203-4b50-b5c3-bf93e195f87c_large/focused-work-session-stockcake.jpg'} alt={'social media'} />
-                <h1 className={'service-title'}>Lifetime maintainence for our websites</h1>
-            </div>
-            </div>
-        </section>
-        <section className={'us'} id={'us'}>
-            <h1>Why hire us?</h1>
-            <div className={'wrapper'}>
-                <div className={'about-content'}>
-                    <i className="fa-solid fa-tv"></i>
-                    <h1>Passionate</h1>
-                    <p>We passionately and creatively infuse every facet of our service, transforming your dreams into
-                        extraordinary reality.</p>
+            <h1 className={'service-heading'}>Some of our Projects</h1>
+            <div className={'service-wrapper'}>
+                <div className={'service-content'}>
+                    <h1 className={'service-title'}>Nextjs Dashboard</h1>
+                    <img className={'service-img'}
+                         src={'https://nextjs.org/learn/dark/dashboard.png'} alt={'dashboard'}/>
                 </div>
-                <div className={'about-content'}>
-                    <i className="fa-solid fa-laptop"></i>
-                    <h1>Professional</h1>
-                    <p>We provide our services with the highest professionalism, guaranteeing exacting attention to
-                        detail and faultless execution. Excellence is our benchmark.</p>
+                <div className={'service-content'}>
+                <h1 className={'service-title'}>Free Code Camp Magazine</h1>
+                    <img className={'service-img'}
+                         src={'https://raw.githubusercontent.com/chanwaihan/Magazine/main/magazine-preview.jpg'}
+                         alt={'website'}/>
                 </div>
-                <div className={'about-content'}>
-                    <i className="fa-solid fa-globe"></i>
-                    <h1>Support</h1>
-                    <p>Beyond the sale, we are dedicated to providing you with reliable after-sales service to ensure
-                        your ongoing success and happiness.</p>
+                <div className={'service-content'}>
+                    <h1 className={'service-title'}>Cafe Menu</h1>
+                    <img className={'service-img'}
+                         src={'https://shot.plnkr.co/YOZcpZM5tWC3nagV.png?d=2022-03-07T23:16:04.054Z'}
+                         alt={'social media'}/>
                 </div>
             </div>
         </section>
         <section className="mentor">
             <h1>Mentors</h1>
-            <div className={'wrapper'}>
+            <div className={'mentor-wrapper'}>
             <img className="mentor-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCpzAlmrfzPB_q16Dbvq0IihxEcGEKTZFLA&s'} alt="freecodecamp" />
-            <img className="mentor-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCpzAlmrfzPB_q16Dbvq0IihxEcGEKTZFLA&s'} alt="freecodecamp" />
-            <img className="mentor-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCpzAlmrfzPB_q16Dbvq0IihxEcGEKTZFLA&s'} alt="freecodecamp" />
-            <img className="mentor-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCpzAlmrfzPB_q16Dbvq0IihxEcGEKTZFLA&s'} alt="freecodecamp" />
+            <img className="mentor-img" src={'https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj'} alt="w3schools" />
+            <img className="mentor-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopA7FFmbqwEw4hT_0c2dswWepiRekm17JTw&s'} alt="reactjs" />
+            <img className="mentor-img" src={'https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg'} alt="nextjs" />
             </div>
         </section>
         <section className={'contact'} id={'contact'}>
