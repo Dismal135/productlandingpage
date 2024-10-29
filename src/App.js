@@ -6,7 +6,7 @@ import photogallery from './images/photogallery.png'
 function App() {
   return (
     <>
-        <ScrollToTop className='scroll-to-top-button' smooth color='white' />
+        <ScrollToTop className='scroll-to-top-button' smooth color='red' />
     <header>
         <div className={'navbar'}>
         <h1>👨🏻‍💻</h1>
@@ -16,18 +16,11 @@ function App() {
         </nav>
         </div>
         <div className={"header-content"}>
-            <h1>Do you need a website for your business?</h1>
-            <h2>Do you know an online website can grow your business?</h2>
-            <h3>A website can help can your company not only for digital marketing but also for your company's management.</h3>
+            <h1>Responsive Websites for both pc and mobile.</h1>
         </div>
     </header>
     <main>
         <section className={'about'} id={'about'}>
-            <div className={'about-content'}>
-                <i className="fa-solid fa-font fa-4x"></i>
-                <h1>CMS</h1>
-                <p>Need to make content writing.We got Content Management System</p>
-            </div>
             <div className={'about-content'}>
                 <i className="fa-solid fa-business-time fa-4x"></i>
                 <h1>Digital Marketing</h1>
@@ -39,12 +32,7 @@ function App() {
                 <p>Analyst your business with dashboard web application</p>
             </div>
             <div className={'about-content'}>
-                <i className="fa-solid fa-video fa-4x"></i>
-                <h1>Multimedia</h1>
-                <p>Need platform to cast your music, media, content?We got them here.</p>
-            </div>
-            <div className={'about-content'}>
-                <i className="fa-solid fa-video fa-4x"></i>
+            <i class="fa-solid fa-cart-shopping fa-4x"></i>
                 <h1>Ecommerce</h1>
                 <p>Sell anything you want online with ecommerce web application</p>
             </div>
