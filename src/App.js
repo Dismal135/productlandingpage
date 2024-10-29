@@ -1,6 +1,7 @@
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import ScrollToTop from "react-scroll-to-top";
+import photogallery from './images/photogallery.png'
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
             <h1 className={'service-heading'}>Some of our Projects</h1>
             <div className={'service-wrapper'}>
                 <div className={'service-content'}>
-                    <h1 className={'service-title'}>Nextjs Dashboard</h1>
+                    <h1 className={'service-title'}>Photo Gallery</h1>
                     <img className={'service-img'}
                          src={'https://nextjs.org/learn/dark/dashboard.png'} alt={'dashboard'}/>
                 </div>
@@ -66,6 +67,12 @@ function App() {
                     <h1 className={'service-title'}>Cafe Menu</h1>
                     <img className={'service-img'}
                          src={'https://shot.plnkr.co/YOZcpZM5tWC3nagV.png?d=2022-03-07T23:16:04.054Z'}
+                         alt={'social media'}/>
+                </div>
+                <div className={'service-content'}>
+                    <h1 className={'service-title'}>Photo Gallery</h1>
+                    <img className={'service-img'}
+                         src={photogallery}
                          alt={'social media'}/>
                 </div>
             </div>
