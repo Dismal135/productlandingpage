@@ -53,17 +53,6 @@ function App() {
             <h1 className={'service-heading'}>Some of our Projects</h1>
             <div className={'service-wrapper'}>
                 <div className={'service-content'}>
-                    <h1 className={'service-title'}>Photo Gallery</h1>
-                    <img className={'service-img'}
-                         src={'https://nextjs.org/learn/dark/dashboard.png'} alt={'dashboard'}/>
-                </div>
-                <div className={'service-content'}>
-                <h1 className={'service-title'}>Free Code Camp Magazine</h1>
-                    <img className={'service-img'}
-                         src={'https://raw.githubusercontent.com/chanwaihan/Magazine/main/magazine-preview.jpg'}
-                         alt={'website'}/>
-                </div>
-                <div className={'service-content'}>
                     <h1 className={'service-title'}>Cafe Menu</h1>
                     <img className={'service-img'}
                          src={'https://shot.plnkr.co/YOZcpZM5tWC3nagV.png?d=2022-03-07T23:16:04.054Z'}
