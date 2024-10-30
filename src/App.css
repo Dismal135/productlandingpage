@@ -1,12 +1,5 @@
 header {
-    background-image: url('https://espressocanada.com/cdn/shop/articles/Blog_Best_Machines_for_the_Office_1600x.jpg?v=1580999417');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
 }
 
 .navbar {
@@ -36,11 +29,9 @@ nav a {
 }
 
 .header-content {
-    color: white;
-    padding: 0 1rem;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    position: absolute;
+    inset: 0;
+    top: 20%;
 }
 
 .about-content {
@@ -100,6 +91,35 @@ nav a {
     max-width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.img {
+    width: 33.3%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 2rem;
+    margin-top: 16px;
+    padding: 0 20px;
+}
+
+.icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
 }
 
 .mentor-wrapper {
