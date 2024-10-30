@@ -36,22 +36,28 @@ function App() {
         <section className={'service'}>
             <div className={'service-wrapper'}>
                 <div className={'service-content'}>
+                    <a href='https://cafe-menu-chi.vercel.app/'>
                     <img className={'service-img'}
                          src={cafemenu}
                          alt={'social media'}/>
                          <h1 className={'service-title'}>Cafe Menu</h1>
+                         </a>
                 </div>
                 <div className={'service-content'}>
+                    <a href='https://photo-gallery-ashy-zeta.vercel.app/'>
                     <img className={'service-img'}
                          src={photogallery}
                          alt={'social media'}/>
                          <h1 className={'service-title'}>Photo Gallery</h1>
+                         </a>
                 </div>
                 <div className={'service-content'}>
+                    <a href='https://ffc-magazine.vercel.app/'>
                     <img className={'service-img'}
                          src={magazine}
                          alt={'social media'}/>
                          <h1 className={'service-title'}>FreeCodeCamp Magazine</h1>
+                         </a>
                 </div>
             </div>
         </section>
